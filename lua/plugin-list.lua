@@ -1,9 +1,6 @@
 return {
     "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons",
-    { "nvim-treesitter/nvim-treesitter",             branch = "master" },
-    { "nvim-treesitter/nvim-treesitter-textobjects", branch = "main" },
-    "nvim-treesitter/nvim-treesitter-context",
     "hrsh7th/nvim-cmp",
     "hrsh7th/cmp-nvim-lsp",
     "hrsh7th/cmp-path",
@@ -13,7 +10,6 @@ return {
     "folke/tokyonight.nvim",
     "nvim-lualine/lualine.nvim",
     "brenoprata10/nvim-highlight-colors",
-    "nvim-orgmode/orgmode",
     "tpope/vim-fugitive",
     "mbbill/undotree",
     "ojroques/vim-oscyank",
