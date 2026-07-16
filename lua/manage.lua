@@ -25,6 +25,12 @@ local function ensure(spec)
     if vim.uv.fs_stat(lua_path) then
         package.path = package.path .. ";" .. lua_path .. "/?.lua;" .. lua_path .. "/?/init.lua"
     end
+
+    -- source the plugin's startup scripts (autocmds, commands, etc.)
+    local plugin_dir = path .. "/plugin"
+    if vim.uv.fs_stat(plugin_dir) then
+        vim.cmd("runtime! " .. plugin_dir .. "/**/*.vim " .. plugin_dir .. "/**/*.lua")
+    end
 end
 
 function M.setup()
