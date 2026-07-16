@@ -1,4 +1,4 @@
-vim.cmd.colorscheme("tokyonight")
+vim.cmd.colorscheme("themery")
 vim.cmd("hi Directory guibg=NONE")
 vim.cmd("hi SignColumn guibg=NONE")
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })

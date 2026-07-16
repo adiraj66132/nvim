@@ -23,9 +23,6 @@ set.signcolumn = "yes"
 -- cursor line
 set.cursorline = true
 
--- 80th column
-set.colorcolumn = "80"
-
 -- clipboard
 set.clipboard:append("unnamedplus")
 

@@ -8,10 +8,12 @@ return {
     "nvim-telescope/telescope.nvim",
     { "ThePrimeagen/harpoon", branch = "harpoon2" },
     "folke/tokyonight.nvim",
+    "offGustavo/shibuya.nvim",
     "nvim-lualine/lualine.nvim",
     "brenoprata10/nvim-highlight-colors",
     "tpope/vim-fugitive",
     "mbbill/undotree",
     "ojroques/vim-oscyank",
     "captbaritone/better-indent-support-for-php-with-html",
+    "lukas-reineke/indent-blankline.nvim",
 }
