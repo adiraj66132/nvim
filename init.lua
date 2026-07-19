@@ -1,4 +1,5 @@
+require("manage").setup()
 require("config.options")
 require("config.keybinds")
+require("config.nvim-tree")
 require("config.treesitter-queries")
-require("manage").setup()

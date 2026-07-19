@@ -46,6 +46,9 @@ vim.keymap.set('v', '<leader>y', '<Plug>OSCYankVisual')
 -- reload without exiting vim
 vim.keymap.set("n", "<leader>rl", "<cmd>source ~/.config/nvim/init.lua<cr>")
 
+-- file explorer on the right
+vim.keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle file explorer" })
+
 vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
 
 -- Quickfix list stuff

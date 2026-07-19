@@ -16,4 +16,5 @@ return {
     "ojroques/vim-oscyank",
     "captbaritone/better-indent-support-for-php-with-html",
     "lukas-reineke/indent-blankline.nvim",
+    "nvim-tree/nvim-tree.lua",
 }
