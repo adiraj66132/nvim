@@ -45,6 +45,7 @@ case directives (`downcase!`/`upcase!`) are added in `plugin/tonysitter.lua`.
 | Plugin | Purpose |
 | --- | --- |
 | `nvim-cmp` (+ `cmp-nvim-lsp`, `cmp-path`, `cmp-buffer`) | Autocompletion |
+| `nvim-autopairs` | Auto closing brackets, quotes (all languages) |
 | `telescope.nvim` | Fuzzy find files, grep, buffers, man pages |
 | `harpoon` (harpoon2) | Quick file working set / navigation |
 | `tokyonight.nvim` / `shibuya.nvim` | Color schemes |
